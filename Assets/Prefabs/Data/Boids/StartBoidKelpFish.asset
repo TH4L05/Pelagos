@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9340801efd78a24b99f0aab4b0a7e1b, type: 3}
+  m_Name: StartBoidKelpFish
+  m_EditorClassIdentifier: 
+  behavioralCh: {x: 3, y: 7}
+  flockNum: 1
+  fragmentedFlock: 10
+  fragmentedFlockYLimit: 0.3
+  migrationFrequency: 0
+  posChangeFrequency: 0.1
+  smoothChFrequency: 3
+  birdPref: {fileID: 643343201794109830, guid: 6a72c39369d28c04f858b52aa05d718d, type: 3}
+  birdsNum: 4
+  birdSpeed: 0.5
+  fragmentedBirds: 5
+  fragmentedBirdsYLimit: 0.2
+  soaring: 1
+  verticalWawe: 3
+  rotationClamp: 0
+  rotationClampValue: 50
+  dangerRadius: 15
+  dangerSpeed: 3
+  dangerSoaring: 1
+  dangerLayer:
+    serializedVersion: 2
+    m_Bits: 8

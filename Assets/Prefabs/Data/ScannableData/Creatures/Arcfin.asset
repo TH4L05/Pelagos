@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b921e16bba427524bab6e1af709eb832, type: 3}
+  m_Name: Arcfin
+  m_EditorClassIdentifier: 
+  name: Arcfin
+  description: Compared to their size the Arcfin is very light. This is due to their
+    body being mostly made up of their large fin, which they use to attract mates.
+  unlocked: 0
+  scannableType: 0
+  unlockedSprite: {fileID: 21300000, guid: 503101f385dc42b43934c261c94b904e, type: 3}
+  prefab: {fileID: 1263638951002013998, guid: 5c12b9ef23a8d3845b1c6eff6adbe16e, type: 3}
+  species: 12
+  habitat1: 1
+  habitat2: 0
+  size: 20
+  weight: 300

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9340801efd78a24b99f0aab4b0a7e1b, type: 3}
+  m_Name: StartBoidOceanMoth
+  m_EditorClassIdentifier: 
+  behavioralCh: {x: 4, y: 8}
+  flockNum: 1
+  fragmentedFlock: 30
+  fragmentedFlockYLimit: 0.1
+  migrationFrequency: 0
+  posChangeFrequency: 0.2
+  smoothChFrequency: 20
+  birdPref: {fileID: 2083017043848986031, guid: 2650ced68dc46b2468ba23f3911afea2, type: 3}
+  birdsNum: 14
+  birdSpeed: 0.3
+  fragmentedBirds: 9
+  fragmentedBirdsYLimit: 0.1
+  soaring: 0.7
+  verticalWawe: 20
+  rotationClamp: 0
+  rotationClampValue: 50
+  dangerRadius: 15
+  dangerSpeed: 3
+  dangerSoaring: 1
+  dangerLayer:
+    serializedVersion: 2
+    m_Bits: 8

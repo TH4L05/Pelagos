@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89c6ea3112e48a7409699be3f7829eac, type: 3}
+  m_Name: Plantae
+  m_EditorClassIdentifier: 
+  name: Plantae
+  description: "The Plant is a species of algae and the way it moves in the \rwater
+    makes you think it's dancing. The leaves are edible and \rare often used in soups.\r\n"
+  unlocked: 0
+  scannableType: 1
+  unlockedSprite: {fileID: 0}
+  prefab: {fileID: 0}
+  species: -1
+  habitat1: 2
+  habitat2: 4
+  size: 120

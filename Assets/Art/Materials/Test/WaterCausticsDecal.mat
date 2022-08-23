@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2052002366117019469
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 12
+  hdPluginSubTargetMaterialVersions:
+    m_Keys: []
+    m_Values: 
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterCausticsDecal
+  m_Shader: {fileID: -6465566751694194690, guid: 014c8e62d1611cb4f9c1f67d2ff74610, type: 3}
+  m_ValidKeywords:
+  - _MATERIAL_AFFECTS_ALBEDO
+  m_InvalidKeywords:
+  - _ENUM_A
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2001
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: d1c5873ec0f290a4f991cac3970338a7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_332abae2ba72467cba67f9e253aad4e7_Texture_1:
+        m_Texture: {fileID: 2800000, guid: d1c5873ec0f290a4f991cac3970338a7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_daa34e6ea6f04d3e8e543052b49fe15d_Texture_1:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_e6de687c826549e8af9bf1a1f185acf9_Texture_1:
+        m_Texture: {fileID: 2800000, guid: e95039a22bf997543a4a360fc76fd705, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2D:
+        m_Texture: {fileID: 2800000, guid: d1c5873ec0f290a4f991cac3970338a7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_00c5b1896564412a94bdecde219147a4_Out_0:
+        m_Texture: {fileID: 2800000, guid: 98ffabcc14fcccf44a71793d11eb6e7a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterTextrue2:
+        m_Texture: {fileID: 2800000, guid: 73cfe368274e19c40ade1844d38a6258, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterTexture1:
+        m_Texture: {fileID: 2800000, guid: 98ffabcc14fcccf44a71793d11eb6e7a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AffectAO: 1
+    - _AffectAlbedo: 1
+    - _AffectEmission: 0
+    - _AffectMetal: 1
+    - _AffectNormal: 0
+    - _AffectSmoothness: 0
+    - _CellDens: 4.5
+    - _ColorMultiply: 12
+    - _DecalColorMask0: 15
+    - _DecalColorMask1: 0
+    - _DecalColorMask2: 0
+    - _DecalColorMask3: 0
+    - _DecalMeshBiasType: 0
+    - _DecalMeshDepthBias: 0
+    - _DecalMeshViewBias: 0
+    - _DecalStencilRef: 16
+    - _DecalStencilWriteMask: 16
+    - _Dens: 5
+    - _DrawOrder: 1
+    - _ENUM: 0
+    - _Float: 1000
+    - _Power: 5
+    - _SpeedDivider: 1000
+    - _VColorMultiply: 2
+    - _VDens: 3
+    - _VPower: 3
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color1: {r: 0.28459975, g: 0.98833734, b: 0.8693229, a: 1}
+    - _Color2: {r: 0.48146293, g: 1.1353015, b: 0.86782205, a: 1}
+    - _Speed: {r: 0.5, g: 0.1, b: 0, a: 0}
+    - _TextureSpeed: {r: 15, g: -10, b: 0, a: 0}
+    - _TextureSpeed1: {r: 0.005, g: 0.005, b: 0, a: 0}
+    - _TextureSpeed2: {r: 0.001, g: 0.001, b: 0, a: 0}
+    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _VColor: {r: 0.44045925, g: 0.8707428, b: 0.9245283, a: 1}
+  m_BuildTextureStacks: []

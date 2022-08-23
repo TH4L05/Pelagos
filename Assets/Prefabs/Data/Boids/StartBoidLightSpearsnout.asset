@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9340801efd78a24b99f0aab4b0a7e1b, type: 3}
+  m_Name: StartBoidLightSpearsnout
+  m_EditorClassIdentifier: 
+  behavioralCh: {x: 2, y: 6}
+  flockNum: 1
+  fragmentedFlock: 25
+  fragmentedFlockYLimit: 0.6
+  migrationFrequency: 0
+  posChangeFrequency: 0.5
+  smoothChFrequency: 0.1
+  birdPref: {fileID: 4164033787077949168, guid: b73eca6bb241b2e4bb11b9854f99c472, type: 3}
+  birdsNum: 10
+  birdSpeed: 0.7
+  fragmentedBirds: 10
+  fragmentedBirdsYLimit: 0.5
+  soaring: 2
+  verticalWawe: 1
+  rotationClamp: 0
+  rotationClampValue: 50
+  dangerRadius: 15
+  dangerSpeed: 3
+  dangerSoaring: 1
+  dangerLayer:
+    serializedVersion: 2
+    m_Bits: 8

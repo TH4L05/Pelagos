@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9340801efd78a24b99f0aab4b0a7e1b, type: 3}
+  m_Name: StartBoidFireFin
+  m_EditorClassIdentifier: 
+  behavioralCh: {x: 4, y: 8}
+  flockNum: 1
+  fragmentedFlock: 25
+  fragmentedFlockYLimit: 0
+  migrationFrequency: 0
+  posChangeFrequency: 1
+  smoothChFrequency: 2
+  birdPref: {fileID: 9087030851304042066, guid: ae437123390ad1745a87d4b489706eaa, type: 3}
+  birdsNum: 12
+  birdSpeed: 0.7
+  fragmentedBirds: 5
+  fragmentedBirdsYLimit: 0.3
+  soaring: 1
+  verticalWawe: 1
+  rotationClamp: 0
+  rotationClampValue: 50
+  dangerRadius: 15
+  dangerSpeed: 3
+  dangerSoaring: 1
+  dangerLayer:
+    serializedVersion: 2
+    m_Bits: 8

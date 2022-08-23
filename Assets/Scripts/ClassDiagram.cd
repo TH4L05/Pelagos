@@ -1,0 +1,877 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PelagosProject.Audio.AudioEvent" Collapsed="true">
+    <Position X="11" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAEAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\AudioEvents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.Audio.AudioEvents" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAQAEAAAAAAABAA=</HashCode>
+      <FileName>Assets\Scripts\AudioEvents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BounceShroom" Collapsed="true">
+    <Position X="31.25" Y="6" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.218" />
+        <Point X="4.198" Y="6.218" Type="JumpStart" />
+        <Point X="4.365" Y="6.218" Type="JumpEnd" />
+        <Point X="31.25" Y="6.218" />
+        <Point X="31.25" Y="6.312" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAABQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\BounceShroom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrawGizmo" Collapsed="true">
+    <Position X="9.25" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.216" />
+        <Point X="4.198" Y="6.216" Type="JumpStart" />
+        <Point X="4.365" Y="6.216" Type="JumpEnd" />
+        <Point X="10" Y="6.216" />
+        <Point X="10" Y="5.441" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAACAAAAAAAACAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\DrawGizmo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="@Controls" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAEhSGgAABggAAEICRAFYAh0AGAEAAIgIDDwKAA=</HashCode>
+      <FileName>Assets\Scripts\Input\Controls.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LoadScene" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.24" />
+        <Point X="4.198" Y="6.24" Type="JumpStart" />
+        <Point X="4.365" Y="6.24" Type="JumpEnd" />
+        <Point X="8.312" Y="6.24" />
+        <Point X="8.312" Y="5.441" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAEIAAQoAQAAAAAIAACAAAAgAAIAAAABQAAAAAgEA=</HashCode>
+      <FileName>Assets\Scripts\LoadScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Music" Collapsed="true">
+    <Position X="14" Y="2.5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.214" />
+        <Point X="4.198" Y="6.214" Type="JumpStart" />
+        <Point X="4.365" Y="6.214" Type="JumpEnd" />
+        <Point X="14.812" Y="6.214" />
+        <Point X="14.812" Y="3.191" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Music.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="audioEvents" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SwarmSpawner" Collapsed="true">
+    <Position X="31.25" Y="7" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.183" />
+        <Point X="4.198" Y="6.183" Type="JumpStart" />
+        <Point X="4.365" Y="6.183" Type="JumpEnd" />
+        <Point X="30.875" Y="6.183" />
+        <Point X="30.875" Y="7.375" />
+        <Point X="31.25" Y="7.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQEIAJAAAAAAAAAAAAAQAgAACIAgAAAAAAAAiAEAEA=</HashCode>
+      <FileName>Assets\Scripts\SwarmSpawner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Trigger" Collapsed="true">
+    <Position X="12.75" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.205" />
+        <Point X="4.198" Y="6.205" Type="JumpStart" />
+        <Point X="4.365" Y="6.205" Type="JumpEnd" />
+        <Point X="13.438" Y="6.205" />
+        <Point X="13.438" Y="5.441" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>EAAEAAAAAAAAABAAAAJAAAAAAiAAAJAAQggAAAAAAgA=</HashCode>
+      <FileName>Assets\Scripts\Trigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IngameMenuTopBarButton" Collapsed="true">
+    <Position X="24" Y="9" Width="2.25" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.212" />
+        <Point X="4.198" Y="6.212" Type="JumpStart" />
+        <Point X="4.365" Y="6.212" Type="JumpEnd" />
+        <Point X="23.513" Y="6.212" />
+        <Point X="23.513" Y="9.312" />
+        <Point X="24" Y="9.312" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAEAAAAAAAEAAAAAAABCQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\IngameMenuTopBarButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IngameMenuTopButtonBar" Collapsed="true">
+    <Position X="24" Y="8" Width="2.25" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.183" />
+        <Point X="4.198" Y="6.183" Type="JumpStart" />
+        <Point X="4.365" Y="6.183" Type="JumpEnd" />
+        <Point X="23.482" Y="6.183" />
+        <Point X="23.482" Y="8.375" />
+        <Point X="24" Y="8.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAgCACAAAAAAAAQAAAAQAQBABIAAAAAEBECAA=</HashCode>
+      <FileName>Assets\Scripts\UI\IngameMenuTopButtonBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhotoGallery" Collapsed="true">
+    <Position X="27.5" Y="7" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.183" />
+        <Point X="4.198" Y="6.183" Type="JumpStart" />
+        <Point X="4.365" Y="6.183" Type="JumpEnd" />
+        <Point X="26.94" Y="6.183" />
+        <Point X="26.94" Y="7.375" />
+        <Point X="27.5" Y="7.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAABAAGACCGBEiABABAAQAAgAAAAoAAAAAAAAAAAAEk=</HashCode>
+      <FileName>Assets\Scripts\UI\PhotoGallery\PhotoGallery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhotoGalleryFullScreenView" Collapsed="true">
+    <Position X="27.5" Y="9" Width="2.25" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.194" />
+        <Point X="4.198" Y="6.194" Type="JumpStart" />
+        <Point X="4.365" Y="6.194" Type="JumpEnd" />
+        <Point X="26.928" Y="6.194" />
+        <Point X="26.928" Y="9.438" />
+        <Point X="27.5" Y="9.438" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAABAAAAAAAAAAAEEBAAAAAAACACAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\UI\PhotoGallery\PhotoGalleryFullScreenView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhotoGallerySlot" Collapsed="true">
+    <Position X="27.5" Y="8" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.221" />
+        <Point X="4.198" Y="6.221" Type="JumpStart" />
+        <Point X="4.365" Y="6.221" Type="JumpEnd" />
+        <Point X="26.94" Y="6.221" />
+        <Point X="26.94" Y="8.438" />
+        <Point X="27.5" Y="8.438" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAkBAAABARAACQAABAIAAAAAQBAAAAABEkA=</HashCode>
+      <FileName>Assets\Scripts\UI\PhotoGallery\PhotoGallerySlot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhotoGalleryUI" Collapsed="true">
+    <Position X="21.75" Y="8" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.216" />
+        <Point X="4.198" Y="6.216" Type="JumpStart" />
+        <Point X="4.365" Y="6.216" Type="JumpEnd" />
+        <Point X="22.5" Y="6.216" />
+        <Point X="22.5" Y="8" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAIAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\UI\PhotoGallery\PhotoGalleryUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScannableLibaryUIMain" Collapsed="true">
+    <Position X="19" Y="11" Width="2" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.236" />
+        <Point X="4.198" Y="6.236" Type="JumpStart" />
+        <Point X="4.365" Y="6.236" Type="JumpEnd" />
+        <Point X="18.75" Y="6.236" />
+        <Point X="18.75" Y="11.438" />
+        <Point X="19" Y="11.438" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\UI\ScannableLibary\ScannableLibaryUIMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIInputActionInfo" Collapsed="true">
+    <Position X="24" Y="11" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.233" />
+        <Point X="4.198" Y="6.233" Type="JumpStart" />
+        <Point X="4.365" Y="6.233" Type="JumpEnd" />
+        <Point X="23.463" Y="6.233" />
+        <Point X="23.463" Y="11.375" />
+        <Point X="24" Y="11.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>EAAAAABAASAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\UIInputActionInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.Game" Collapsed="true">
+    <Position X="5.75" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.247" />
+        <Point X="4.198" Y="6.247" Type="JumpStart" />
+        <Point X="4.365" Y="6.247" Type="JumpEnd" />
+        <Point X="6.625" Y="6.247" />
+        <Point X="6.625" Y="5.441" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>CEABAAgAACAAECAAAQAAAEAAEAAAABAAQAAAAAAAAHA=</HashCode>
+      <FileName>Assets\Scripts\Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.PhotoMode" Collapsed="true">
+    <Position X="27" Y="3.25" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.198" />
+        <Point X="4.198" Y="6.198" Type="JumpStart" />
+        <Point X="4.365" Y="6.198" Type="JumpEnd" />
+        <Point X="27.75" Y="6.198" />
+        <Point X="27.75" Y="3.941" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAABAACQSAAABQgAQAEAgBAAAAgAAAEAAAAAABAQAEA=</HashCode>
+      <FileName>Assets\Scripts\PhotoMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.Scanner" Collapsed="true">
+    <Position X="5.25" Y="9.5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.225" />
+        <Point X="4.198" Y="6.225" Type="JumpStart" />
+        <Point X="4.365" Y="6.225" Type="JumpEnd" />
+        <Point X="7.211" Y="6.225" />
+        <Point X="7.211" Y="9.875" />
+        <Point X="6.75" Y="9.875" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQBAAAAAiBAAESAIAAAAAAAEAAAABCAAAAAAAAAIEA=</HashCode>
+      <FileName>Assets\Scripts\Player\Scanner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.Puzzle" Collapsed="true">
+    <Position X="12.25" Y="7" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.233" />
+        <Point X="4.198" Y="6.233" Type="JumpStart" />
+        <Point X="4.365" Y="6.233" Type="JumpEnd" />
+        <Point X="13" Y="6.233" />
+        <Point X="13" Y="7" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAADAAAAAQAABAAAAAIAAAEBAAAAACBAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\Puzzle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.ScannableLibary" Collapsed="true">
+    <Position X="19.25" Y="7" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.183" />
+        <Point X="4.198" Y="6.183" Type="JumpStart" />
+        <Point X="4.365" Y="6.183" Type="JumpEnd" />
+        <Point X="18.779" Y="6.183" />
+        <Point X="18.779" Y="7.375" />
+        <Point X="19.25" Y="7.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ABgBAAAAACAAAQCCAEAAJAAAAAAAAAAAQEASIAAACEo=</HashCode>
+      <FileName>Assets\Scripts\UI\ScannableLibary\ScannableLibary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.Interactables.Specials.Geysir" Collapsed="true">
+    <Position X="31.25" Y="5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.183" />
+        <Point X="4.198" Y="6.183" Type="JumpStart" />
+        <Point X="4.365" Y="6.183" Type="JumpEnd" />
+        <Point X="30.875" Y="6.183" />
+        <Point X="30.875" Y="5.375" />
+        <Point X="31.25" Y="5.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAMAgAABBAgAAAAAAAAAAAAAIAAQAAAAAgAAAA=</HashCode>
+      <FileName>Assets\Scripts\Geysir.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.User.Input.PlayerInput" Collapsed="true">
+    <Position X="0.75" Y="8.25" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" FixedFromPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="7.898" />
+        <Point X="1.5" Y="7.898" />
+        <Point X="1.5" Y="8.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>OiBAEIDGwDiyAnBBsUMAAECIiIIBICUBKiQIGIhAAMA=</HashCode>
+      <FileName>Assets\Scripts\Input\PlayerInput.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="controls" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PelagosProject.Interactables.CreatureData" Collapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <InheritanceLine Type="PelagosProject.Interactables.ScannableData" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="20.25" Y="1.312" />
+        <Point X="20.633" Y="1.312" />
+        <Point X="20.633" Y="0.812" />
+        <Point X="21" Y="0.812" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAgAAAAIAAAAAAAQAAAAEAAAAAAAAABAA=</HashCode>
+      <FileName>Assets\Scripts\Interactables\Data\CreatureData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.Interactables.InteractableData" Collapsed="true">
+    <Position X="16.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAIAAAIAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Assets\Scripts\Interactables\Data\InteractableData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.Interactables.PlantData" Collapsed="true">
+    <Position X="21" Y="1.5" Width="1.5" />
+    <InheritanceLine Type="PelagosProject.Interactables.ScannableData" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="20.25" Y="1.312" />
+        <Point X="20.633" Y="1.312" />
+        <Point X="20.633" Y="1.875" />
+        <Point X="21" Y="1.875" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAgAAAAIAAAAAAAQAAAAEAAAAAAAAABAA=</HashCode>
+      <FileName>Assets\Scripts\Interactables\Data\PlantData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.Interactables.ScannableData" Collapsed="true">
+    <Position X="18.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAQAAAAAAAAAEAAAgAAABIAAAAQAAAAAAAACEAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Interactables\Data\ScannableData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.Interactables.Interactable" Collapsed="true">
+    <Position X="16.5" Y="3.25" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.224" />
+        <Point X="4.198" Y="6.224" Type="JumpStart" />
+        <Point X="4.365" Y="6.224" Type="JumpEnd" />
+        <Point X="16.125" Y="6.224" />
+        <Point X="16.125" Y="3.596" />
+        <Point X="16.5" Y="3.596" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAQAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Interactables\Interactable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.Interactables.PuzzleInteractable" Collapsed="true">
+    <Position X="18.5" Y="3.25" Width="1.5" />
+    <InheritanceLine Type="PelagosProject.Interactables.Interactable" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="17.25" Y="3.25" />
+        <Point X="17.25" Y="2.875" />
+        <Point X="19.25" Y="2.875" />
+        <Point X="19.25" Y="3.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAQAAAABAAAAAAAIEAkAAAAAAAAAAAAgAEA=</HashCode>
+      <FileName>Assets\Scripts\Interactables\PuzzleInteractable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.Interactables.Scannable" Collapsed="true">
+    <Position X="20.25" Y="3.25" Width="1.5" />
+    <InheritanceLine Type="PelagosProject.Interactables.Interactable" FixedToPoint="true">
+      <Path>
+        <Point X="17.25" Y="3.25" />
+        <Point X="17.25" Y="2.875" />
+        <Point X="21" Y="2.875" />
+        <Point X="21" Y="3.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\Interactables\Scannable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.User.Movement.MovementData" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAgAAAEIAAABAAAAAQABBAIAASSCAAAggAAAQAgEA=</HashCode>
+      <FileName>Assets\Scripts\Player\MovementData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.User.Movement.PlayerMovement" Collapsed="true">
+    <Position X="2.75" Y="8.25" Width="1.75" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" FixedFromPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="7.898" />
+        <Point X="3.625" Y="7.898" />
+        <Point X="3.625" Y="8.25" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="input" Type="PelagosProject.User.Input.PlayerInput" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.625" Y="8.941" />
+        <Point X="3.625" Y="9.316" />
+        <Point X="1.5" Y="9.316" />
+        <Point X="1.5" Y="8.941" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQAQgAAKiAEoiAUABCgAAAiQYECAFEAEAJAACIQQUo=</HashCode>
+      <FileName>Assets\Scripts\Player\PlayerMovement.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="movementData" />
+      <Field Name="input" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PelagosProject.User.Player" Collapsed="true">
+    <Position X="5.25" Y="8.25" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" FixedFromPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="7.898" />
+        <Point X="4.198" Y="7.898" Type="JumpStart" />
+        <Point X="4.365" Y="7.898" Type="JumpEnd" />
+        <Point X="6" Y="7.898" />
+        <Point X="6" Y="8.25" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="input" Type="PelagosProject.User.Input.PlayerInput" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.812" Y="8.941" />
+        <Point X="5.812" Y="9.316" />
+        <Point X="1.5" Y="9.316" />
+        <Point X="1.5" Y="8.941" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>CIUEAAAIACAAAJAAEAEAIAAiAAAAABACEAAAAAAAgAA=</HashCode>
+      <FileName>Assets\Scripts\Player\Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="playerMovement" />
+      <Field Name="input" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PelagosProject.Quests.Quest" Collapsed="true">
+    <Position X="8.25" Y="8" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.235" />
+        <Point X="4.198" Y="6.235" Type="JumpStart" />
+        <Point X="4.365" Y="6.235" Type="JumpEnd" />
+        <Point X="7.875" Y="6.235" />
+        <Point X="7.875" Y="8.375" />
+        <Point X="8.25" Y="8.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AQgAAAAACAAIABgAGIAAADCAAIBQAAUIAAABAIEACAA=</HashCode>
+      <FileName>Assets\Scripts\Quest\Quest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.Quests.QuestGoal" Collapsed="true">
+    <Position X="8.25" Y="9" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.26" />
+        <Point X="4.198" Y="6.26" Type="JumpStart" />
+        <Point X="4.365" Y="6.26" Type="JumpEnd" />
+        <Point X="7.875" Y="6.26" />
+        <Point X="7.875" Y="9.375" />
+        <Point X="8.25" Y="9.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>oQAAACEACEEgBABAMIAAABAAAABAAAQAAACEAACAAAA=</HashCode>
+      <FileName>Assets\Scripts\Quest\QuestGoal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.Quests.QuestGoalCheckInput" Collapsed="true">
+    <Position X="9.75" Y="10.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgACAgAACAAAAABAAAAAQAAAAAAAAAAAAEAAAAAgAAA=</HashCode>
+      <FileName>Assets\Scripts\Quest\QuestGoalCheckInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.Quests.QuestGoalUnockCreature" Collapsed="true">
+    <Position X="7.5" Y="10.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Quest\QuestGoalUnockCreature.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.Quests.QuestSystem" Collapsed="true">
+    <Position X="8.25" Y="7" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.221" />
+        <Point X="4.198" Y="6.221" Type="JumpStart" />
+        <Point X="4.365" Y="6.221" Type="JumpEnd" />
+        <Point X="7.885" Y="6.221" />
+        <Point X="7.885" Y="7.312" />
+        <Point X="8.25" Y="7.312" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AQEBACAAACAIAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Quest\QuestSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.Save.Profile.PlayerProfile" Collapsed="true">
+    <Position X="24.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAAAAAAAAAAAAAAAAAAAAAAABAEAAAAgAAAAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\Save\PlayerProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.Save.Profile.PlayerProfileSlot" Collapsed="true">
+    <Position X="24.5" Y="3.25" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.177" />
+        <Point X="4.198" Y="6.177" Type="JumpStart" />
+        <Point X="4.365" Y="6.177" Type="JumpEnd" />
+        <Point X="24.125" Y="6.177" />
+        <Point X="24.125" Y="3.596" />
+        <Point X="24.5" Y="3.596" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AQAAAIAwIAAUIAAAAAAAQABAAAAAAAAAAEAACAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Save\PlayerProfileSlot.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="playerProfile" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PelagosProject.Save.Serialization" Collapsed="true">
+    <Position X="11" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.25" />
+        <Point X="4.198" Y="6.25" Type="JumpStart" />
+        <Point X="4.365" Y="6.25" Type="JumpEnd" />
+        <Point X="11.75" Y="6.25" />
+        <Point X="11.75" Y="5.441" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAQAAAAAAAAAAAAAAEAAAAIAAAEEACAAEAA=</HashCode>
+      <FileName>Assets\Scripts\Save\Serialization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.UI.ButtonBar" Collapsed="true">
+    <Position X="24" Y="12" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.225" />
+        <Point X="4.198" Y="6.225" Type="JumpStart" />
+        <Point X="4.365" Y="6.225" Type="JumpEnd" />
+        <Point X="23.503" Y="6.225" />
+        <Point X="23.503" Y="12.438" />
+        <Point X="24" Y="12.438" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AARAAAAAASACAAAAAAAEQAAAAAAQBAAIAgAACUBECAA=</HashCode>
+      <FileName>Assets\Scripts\UI\ButtonBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.UI.ShipInformationsDisplay" Collapsed="true">
+    <Position X="14.75" Y="8" Width="2" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.24" />
+        <Point X="4.198" Y="6.24" Type="JumpStart" />
+        <Point X="4.365" Y="6.24" Type="JumpEnd" />
+        <Point X="14.295" Y="6.24" />
+        <Point X="14.295" Y="8.312" />
+        <Point X="14.75" Y="8.312" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAgBBECQAAGAAAAAAYEQCACAAQAAAAAAAAAgEAAAAkA=</HashCode>
+      <FileName>Assets\Scripts\UI\Hud\ShipInformationsDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.UI.HUD.Hud" Collapsed="true">
+    <Position X="15" Y="7" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.233" />
+        <Point X="4.198" Y="6.233" Type="JumpStart" />
+        <Point X="4.365" Y="6.233" Type="JumpEnd" />
+        <Point X="14.286" Y="6.233" />
+        <Point X="14.286" Y="7.375" />
+        <Point X="15" Y="7.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>gAIhAAABADEACECABAIBAAAAAgAAAqgIFQQEIAQSAkQ=</HashCode>
+      <FileName>Assets\Scripts\UI\Hud\Hud.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.UI.Menu.IngameMenu" Collapsed="true">
+    <Position X="24" Y="7" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.183" />
+        <Point X="4.198" Y="6.183" Type="JumpStart" />
+        <Point X="4.365" Y="6.183" Type="JumpEnd" />
+        <Point X="23.513" Y="6.183" />
+        <Point X="23.513" Y="7.375" />
+        <Point X="24" Y="7.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>CAAgEAAAgAAAACAAAAAAgAAAAAAAgAAIBAAAAAkQCQA=</HashCode>
+      <FileName>Assets\Scripts\UI\IngameMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.UI.Menu.MainMenu" Collapsed="true">
+    <Position X="17" Y="7" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.257" />
+        <Point X="4.198" Y="6.257" Type="JumpStart" />
+        <Point X="4.365" Y="6.257" Type="JumpEnd" />
+        <Point X="17.75" Y="6.257" />
+        <Point X="17.75" Y="7" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BEAAAAAAACAAAIEAAQAAAEAEAAAAAAAAEAAAAAAAAUA=</HashCode>
+      <FileName>Assets\Scripts\UI\MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.UI.Menu.Options" Collapsed="true">
+    <Position X="17" Y="8" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.242" />
+        <Point X="4.198" Y="6.242" Type="JumpStart" />
+        <Point X="4.365" Y="6.242" Type="JumpEnd" />
+        <Point X="17.75" Y="6.242" />
+        <Point X="17.75" Y="8" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BDCEoJCECEBQgAhAQAAHg0SFEACAQABIQJAxCGSAgEQ=</HashCode>
+      <FileName>Assets\Scripts\UI\Options.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.UI.Menu.Ingame.IngameMenuPanel" Collapsed="true">
+    <Position X="24" Y="10" Width="2" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.22" />
+        <Point X="4.198" Y="6.22" Type="JumpStart" />
+        <Point X="4.365" Y="6.22" Type="JumpEnd" />
+        <Point X="23.453" Y="6.22" />
+        <Point X="23.453" Y="10.375" />
+        <Point X="24" Y="10.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAEAAAAAAAIAAAAIAAACAA=</HashCode>
+      <FileName>Assets\Scripts\UI\IngameMenuPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.UI.Menu.Ingame.ScannableLibaryUIInfoSection" Collapsed="true">
+    <Position X="19" Y="10" Width="2.25" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.226" />
+        <Point X="4.198" Y="6.226" Type="JumpStart" />
+        <Point X="4.365" Y="6.226" Type="JumpEnd" />
+        <Point X="18.75" Y="6.226" />
+        <Point X="18.75" Y="10.375" />
+        <Point X="19" Y="10.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AQABAAABAEAABAAIAAAAIAAAAEAEABAKAAACgAAACEI=</HashCode>
+      <FileName>Assets\Scripts\UI\ScannableLibary\ScannableLibaryUIInfoSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.UI.Menu.Ingame.ScannableLibaryUIScrollArea" Collapsed="true">
+    <Position X="19" Y="9" Width="2.25" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.171" />
+        <Point X="4.198" Y="6.171" Type="JumpStart" />
+        <Point X="4.365" Y="6.171" Type="JumpEnd" />
+        <Point X="18.747" Y="6.171" />
+        <Point X="18.747" Y="9.438" />
+        <Point X="19" Y="9.438" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAEABAACAAAAAgAAIAAAAAAAAAAoAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\UI\ScannableLibary\ScannableLibaryUIScrollArea.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.UI.Menu.Ingame.ScannableLibaryUISlot" Collapsed="true">
+    <Position X="19" Y="8" Width="2.25" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="4.691" />
+        <Point X="3.25" Y="6.242" />
+        <Point X="4.198" Y="6.242" Type="JumpStart" />
+        <Point X="4.365" Y="6.242" Type="JumpEnd" />
+        <Point X="18.779" Y="6.242" />
+        <Point X="18.779" Y="8.375" />
+        <Point X="19" Y="8.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAgAIBAEAAAAACAIAQAAIQAAgAAAAGAA=</HashCode>
+      <FileName>Assets\Scripts\UI\ScannableLibary\ScannableLibaryUISlot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PelagosProject.Data.SettingsData" Collapsed="true">
+    <Position X="9" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IiAAAgMGAADAAg4JQAAOAEgAAMAEgYAAYAAgAOACAAo=</HashCode>
+      <FileName>Assets\Scripts\UI\SettingsData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.MonoBehaviour" Collapsed="true">
+    <Position X="2.5" Y="4" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.Behaviour" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="3.691" />
+        <Point X="3.25" Y="4" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Behaviour" Collapsed="true">
+    <Position X="2.5" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Component" Collapsed="true">
+    <Position X="2.5" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ScriptableObject" Collapsed="true">
+    <Position X="7.75" Y="1" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Object" Collapsed="true">
+    <Position X="2.5" Y="1" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

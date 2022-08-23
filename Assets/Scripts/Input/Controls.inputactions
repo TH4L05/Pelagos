@@ -1,0 +1,1373 @@
+{
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "Movement",
+            "id": "e0193542-fa0c-48c6-a81a-d87c67120f31",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "PassThrough",
+                    "id": "6f279b9d-23f5-4adf-85b5-e0e13a7a515c",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PowerIncreaseKeyboard",
+                    "type": "Button",
+                    "id": "023f6761-f373-4164-b617-4d44d1b7531e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PowerDecreaseKeyboard",
+                    "type": "Button",
+                    "id": "5683a1ca-113a-486b-87ed-366b1f0265db",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DirectionSwitch",
+                    "type": "Button",
+                    "id": "ffc6f064-0c58-49f9-b89a-8c42830e219c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SpeedSlider",
+                    "type": "PassThrough",
+                    "id": "c7d20cd4-6630-4e5c-8e8d-44f1f0cca6e0",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "BaseRotation",
+                    "type": "PassThrough",
+                    "id": "b47d5627-4165-423e-bfbe-e7c540ec30a7",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Strafe",
+                    "type": "PassThrough",
+                    "id": "a4fbb5b3-ee46-43a5-bb30-315990e9b3bd",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "Joystick",
+                    "id": "a185210b-a87d-4cb4-8a0a-d62f86ee7c1d",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "4ef9a2ff-c737-4a11-b48b-f74e986c82f1",
+                    "path": "<Joystick>/stick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "e4b13a14-334d-445a-ae93-84227ffb51f9",
+                    "path": "<Joystick>/stick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "2a5616bb-84ad-40c8-8c31-e086400680a0",
+                    "path": "<Joystick>/stick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "1ab825f0-4b76-4c18-9ef2-2c71012ef9dc",
+                    "path": "<Joystick>/stick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Keyboard",
+                    "id": "1b70b935-3d7a-4e0c-9301-e2296bbafb27",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "3f7a3310-dee3-4f50-80a0-1a7cb279db12",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardAndMouse",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "f6bf764e-60e4-4dd1-9ec5-6d26cdf1ddf4",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardAndMouse",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "89ab96f1-21e9-4574-aadc-0bcdf8b4e571",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardAndMouse",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "cf62d933-fca6-4269-9125-8df17650ab1c",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardAndMouse",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "cd8e765f-9a98-45e0-ae96-bcd3644adc7b",
+                    "path": "<Keyboard>/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardAndMouse",
+                    "action": "PowerIncreaseKeyboard",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ba270221-8913-4ec8-8e1b-5c89a43e3e9c",
+                    "path": "<HID::SHANWAN PS3/PC Gamepad>/z",
+                    "interactions": "",
+                    "processors": "Invert",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "SpeedSlider",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "014ede4b-0a23-4322-bee7-771d4e41d379",
+                    "path": "<HID::DragonRise Inc.   Generic   USB  Joystick  >/z1",
+                    "interactions": "",
+                    "processors": "Invert",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "SpeedSlider",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b59c6b0f-2bd5-4303-bf9f-4446c9a42046",
+                    "path": "<HID::SHANWAN PS3/PC Gamepad>/rz",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "BaseRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bb5e24a2-cd13-4e5c-be49-ba7c384854a0",
+                    "path": "<HID::DragonRise Inc.   Generic   USB  Joystick  >/rz",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BaseRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Keyboard",
+                    "id": "06c8e8bc-03b2-4b73-b13d-1ff5aa6c7d95",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BaseRotation",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "a3aa7b4e-1b09-4103-a650-a74ddd2a44d4",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BaseRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "1214ba69-b8d4-4f8c-ba0d-428f7d673ecb",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BaseRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Joystick",
+                    "id": "537042bf-63f3-48ad-9258-ae594ed84770",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Strafe",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "a242f0ed-b282-45ee-91fb-b18248bf62a4",
+                    "path": "<HID::SHANWAN PS3/PC Gamepad>/button5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "Strafe",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "up",
+                    "id": "1f527adf-3ac2-413c-a89d-f1cffd80eb88",
+                    "path": "<HID::DragonRise Inc.   Generic   USB  Joystick  >/button5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "Strafe",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "585eb4d9-ef1d-4e67-b9be-3126572950e3",
+                    "path": "<HID::SHANWAN PS3/PC Gamepad>/button7",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "Strafe",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "1bf243dc-45cb-4647-962f-f3599bfb7fc6",
+                    "path": "<HID::DragonRise Inc.   Generic   USB  Joystick  >/button7",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "Strafe",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "f8148783-da19-44d5-8536-cbdd9c242593",
+                    "path": "<HID::SHANWAN PS3/PC Gamepad>/button4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "Strafe",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "a8744cbe-bea9-4c17-bca1-d15ed0aa38d9",
+                    "path": "<HID::DragonRise Inc.   Generic   USB  Joystick  >/button4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "Strafe",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "d549242f-5d3c-4742-9cfe-6c183bbdc7c2",
+                    "path": "<HID::SHANWAN PS3/PC Gamepad>/button6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "Strafe",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "16855350-103c-452e-9636-4ef5d7116180",
+                    "path": "<HID::DragonRise Inc.   Generic   USB  Joystick  >/button6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "Strafe",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Keyboard",
+                    "id": "7c2ee960-4b70-426c-bc35-b2c9d8d2e089",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Strafe",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "607416f7-02b3-4ffc-be3c-e2bd56c94110",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Strafe",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "7db2bffc-bcc0-4c31-a75a-9c5cb22311d8",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Strafe",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "d92c9b73-47b4-4ae0-b50b-4f45f3c65a07",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Strafe",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "eb5fb1ec-130f-4d20-94e4-cb60b3e101ca",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Strafe",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "9c514b80-e5e4-4192-9dda-b45064a8c6d5",
+                    "path": "<Keyboard>/c",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardAndMouse",
+                    "action": "PowerDecreaseKeyboard",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d9caeffb-c909-46c0-ba85-ce422c109cfc",
+                    "path": "<HID::SHANWAN PS3/PC Gamepad>/button2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "DirectionSwitch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4143cfb0-1ed8-4052-bffb-2f670170f19c",
+                    "path": "<HID::DragonRise Inc.   Generic   USB  Joystick  >/button2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "DirectionSwitch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6a27fb66-d9d9-4dc7-97cf-ea561819f834",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardAndMouse",
+                    "action": "DirectionSwitch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Base",
+            "id": "9a845f1c-b5d2-4c53-992f-263df80e4a0f",
+            "actions": [
+                {
+                    "name": "ScanMode",
+                    "type": "Button",
+                    "id": "1b4c339f-b12b-4d64-93f2-343f3c1a77b2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TakePhoto",
+                    "type": "Button",
+                    "id": "1614f513-4247-463a-8db6-2ffb501b38f0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ToggleFlashlights",
+                    "type": "Button",
+                    "id": "a856e830-79cb-4c2f-ae76-2e59bb5217da",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "99e36c24-ba91-4984-8718-0cdb7fe10850",
+                    "path": "<Joystick>/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "ScanMode",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c85f55b0-23bc-4bc6-849f-c3545cb6729e",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardAndMouse",
+                    "action": "ScanMode",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9562c904-bcfe-4c32-a4a4-495ec27f4cc6",
+                    "path": "<HID::SHANWAN PS3/PC Gamepad>/button3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "TakePhoto",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7afb8809-6bbb-40e7-abb7-9f7bab445731",
+                    "path": "<HID::DragonRise Inc.   Generic   USB  Joystick  >/button3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TakePhoto",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6b249900-0d23-466b-b8fe-ab5aa05ad012",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardAndMouse",
+                    "action": "TakePhoto",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a1cdaf96-1f90-42f0-9826-298ede128c5e",
+                    "path": "<HID::SHANWAN PS3/PC Gamepad>/hat/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ToggleFlashlights",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "65c1752e-5330-43b2-8535-42854780162f",
+                    "path": "<HID::DragonRise Inc.   Generic   USB  Joystick  >/hat/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "ToggleFlashlights",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c9ad8148-1921-40eb-b05f-b4686f3be59f",
+                    "path": "<Keyboard>/l",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardAndMouse",
+                    "action": "ToggleFlashlights",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "UI",
+            "id": "79c222ef-b4f8-464c-bd6c-f7dc9da418ea",
+            "actions": [
+                {
+                    "name": "Submit",
+                    "type": "Button",
+                    "id": "1524c307-e90b-4c4a-9e68-0a592eaab69d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Point",
+                    "type": "PassThrough",
+                    "id": "96585188-ffed-453f-8fb4-1ae16e8343f2",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Cancel",
+                    "type": "Button",
+                    "id": "86c8ef1e-2346-4373-8acb-7f10b5bf9314",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Navigate",
+                    "type": "PassThrough",
+                    "id": "567179ad-7e06-4880-84de-8a7d3e33389d",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "0a039d88-17e5-495b-b0e8-0ce586e6be8a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "NavigateUp",
+                    "type": "Button",
+                    "id": "2acacbbd-cf3d-4cce-a0c2-a010b1c81136",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "NavigateDown",
+                    "type": "Button",
+                    "id": "b58fce0e-825f-4f70-987b-375bacc246b9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "NavigateLeft",
+                    "type": "Button",
+                    "id": "6c489186-7780-46ce-8538-578ffae25447",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "NavigateRight",
+                    "type": "Button",
+                    "id": "55461bca-bf98-4331-a3bc-8586434f1a4c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "NavigateNext",
+                    "type": "Button",
+                    "id": "728e0e80-cb07-4d7f-b976-840450c06697",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "NavigatePrevious",
+                    "type": "Button",
+                    "id": "f6963f44-e71b-4858-9814-bdd22ab9b638",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PhotoGalleryDeletePicture",
+                    "type": "Button",
+                    "id": "8c08a531-4b76-411b-b0e1-64bb312da011",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MenuBack",
+                    "type": "Button",
+                    "id": "7db516ec-4b50-49b8-b712-7ac1379dec3a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8f61c5df-4939-4b88-bf04-dc4e624577a3",
+                    "path": "*/{Submit}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Submit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "05880fc7-2948-4676-b141-9447f1ec12d5",
+                    "path": "<Joystick>/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "Submit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c6fe0790-9695-4df9-8547-a0190826ed30",
+                    "path": "*/{Cancel}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cancel",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Joystick",
+                    "id": "66d6a079-e37f-44bf-9944-6b7eb5a893ba",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Navigate",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "cc7d66cb-cdbe-46bd-bd8d-e52a8efab169",
+                    "path": "<HID::SHANWAN PS3/PC Gamepad>/button5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "up",
+                    "id": "89b3e36a-3355-48e1-91d3-6d324c4c70e1",
+                    "path": "<HID::DragonRise Inc.   Generic   USB  Joystick  >/button5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "f041f7ec-cc9d-476f-93ca-4626683d5a3d",
+                    "path": "<HID::SHANWAN PS3/PC Gamepad>/button7",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "de7ad675-76f0-4ea4-8595-6f38afe31228",
+                    "path": "<HID::DragonRise Inc.   Generic   USB  Joystick  >/button7",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "2b024829-4363-4f66-81fc-f85ad8b82031",
+                    "path": "<HID::SHANWAN PS3/PC Gamepad>/button4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "7421b344-0a0d-4381-995b-dfaf40aa79db",
+                    "path": "<HID::DragonRise Inc.   Generic   USB  Joystick  >/button4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "d5aa8b74-80ad-4dac-94d8-407de480728d",
+                    "path": "<HID::SHANWAN PS3/PC Gamepad>/button6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "b0d35b82-28c6-4809-9a26-7cff4067840a",
+                    "path": "<HID::DragonRise Inc.   Generic   USB  Joystick  >/button6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Keyboard",
+                    "id": "700c53ca-3b80-4e45-8151-ecdfada2bc79",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Navigate",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "e734957c-aec5-4662-8229-370b37f2ee4c",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardAndMouse",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "5ecf1a91-2bab-4fa7-9171-c75676e2f28d",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardAndMouse",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "849eafb5-a113-440e-8826-3c9ae051f196",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardAndMouse",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "952cf2cb-f5d4-408a-9403-7e8e7a9b8fb9",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "06449d29-f623-453f-a7e0-47fb93a019b1",
+                    "path": "<Joystick>/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3d78801c-ed1f-4ae2-bbd5-a1d4376468ed",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardAndMouse",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "69a5314c-cdf1-4972-9c3b-b3c6cce98042",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardAndMouse",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6823d4e4-6756-4c9b-91ae-452769d728ce",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "50dc2597-9847-4c24-b1ce-9ef96de6c44a",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Point",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8e15dd78-49d2-478d-a746-7457ce98b7db",
+                    "path": "<HID::SHANWAN PS3/PC Gamepad>/button5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "NavigateUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cb4a5c6b-d9f6-4d0d-8367-297ff00d492b",
+                    "path": "<HID::DragonRise Inc.   Generic   USB  Joystick  >/button5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NavigateUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "44fdc051-186e-460e-bc0d-4e160ecfea75",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardAndMouse",
+                    "action": "NavigateUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5caff770-2a84-465b-b786-fb6036d6ac5a",
+                    "path": "<HID::SHANWAN PS3/PC Gamepad>/button7",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "NavigateDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e193bad8-0dea-4bbf-834f-b868ae0b424a",
+                    "path": "<HID::DragonRise Inc.   Generic   USB  Joystick  >/button7",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NavigateDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "52d6a568-da76-4f49-b5d4-e864c19adb36",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardAndMouse",
+                    "action": "NavigateDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a0c9f944-c083-45e7-9412-db18269dea99",
+                    "path": "<HID::SHANWAN PS3/PC Gamepad>/button4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "NavigateLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c05b4c45-e3e3-408a-a507-33a1bd5b76fb",
+                    "path": "<HID::DragonRise Inc.   Generic   USB  Joystick  >/button4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NavigateLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "56cb6ef5-d5e2-4926-a300-ccd2ad2b9078",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardAndMouse",
+                    "action": "NavigateLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3ff45275-8e07-4522-ae52-fd0ffc6fba6a",
+                    "path": "<HID::SHANWAN PS3/PC Gamepad>/button6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "NavigateRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4d3cdf96-794c-48c5-8f0f-05cbb6604875",
+                    "path": "<HID::DragonRise Inc.   Generic   USB  Joystick  >/button6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NavigateRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f2bec371-0ad6-4da4-a714-8d2c2dce4409",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardAndMouse",
+                    "action": "NavigateRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "56e71965-8bca-40dc-929d-b1af758cc667",
+                    "path": "<HID::SHANWAN PS3/PC Gamepad>/hat/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "NavigateNext",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "25b82e1a-fa23-476f-a62f-67990751cd8c",
+                    "path": "<HID::DragonRise Inc.   Generic   USB  Joystick  >/hat/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NavigateNext",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "605b6eab-771f-4a87-83d0-b16e1accdec0",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardAndMouse",
+                    "action": "NavigateNext",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4e9b7fb3-5cde-4853-90f8-6a2bba336efc",
+                    "path": "<HID::SHANWAN PS3/PC Gamepad>/hat/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "NavigatePrevious",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7a9ea632-eb5d-48ff-a672-eaa2d7bbfde9",
+                    "path": "<HID::DragonRise Inc.   Generic   USB  Joystick  >/hat/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NavigatePrevious",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f77f9cca-70ff-44ce-a783-907a0f93d1de",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardAndMouse",
+                    "action": "NavigatePrevious",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4f2921a1-d125-4ba5-b934-19e54c668b01",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PhotoGalleryDeletePicture",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6bd92c49-8bf7-4d9e-b74b-66e95403a002",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MenuBack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "UIoptions",
+            "id": "76db5bf6-2010-4d80-8ebe-019dab0197d6",
+            "actions": [
+                {
+                    "name": "OptionsSubSectionNavigateLeft",
+                    "type": "Button",
+                    "id": "7156e2e8-f8f0-462f-93e0-f99d659bdbd2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "OptionsSubSectionNavigateRight",
+                    "type": "Button",
+                    "id": "6ea988fa-4130-4e6b-92e9-2e0f2509a16b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "OptionsSubSectionBack",
+                    "type": "Button",
+                    "id": "d56ca8f2-510a-4abc-9dd4-cbad9d36a082",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ebfdc2d6-d54f-4dee-b6ab-4770ec94cb7c",
+                    "path": "<HID::SHANWAN PS3/PC Gamepad>/button4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "OptionsSubSectionNavigateLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4f426dad-324e-4ed9-9ff6-aaa484273c0f",
+                    "path": "<HID::DragonRise Inc.   Generic   USB  Joystick  >/button4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OptionsSubSectionNavigateLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ecf20566-e0fb-4230-8d6e-9832dbb4e931",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardAndMouse",
+                    "action": "OptionsSubSectionNavigateLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2973a264-f5aa-4923-a402-0ab7719c85b7",
+                    "path": "<HID::SHANWAN PS3/PC Gamepad>/button6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "OptionsSubSectionNavigateRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b3b36486-b159-49c1-91bd-f62f56fe79eb",
+                    "path": "<HID::DragonRise Inc.   Generic   USB  Joystick  >/button6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OptionsSubSectionNavigateRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "129033d5-edc3-42cf-9978-1337d2fca6b0",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardAndMouse",
+                    "action": "OptionsSubSectionNavigateRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0a859b15-5641-4eb2-902a-fcc83c5086ef",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OptionsSubSectionBack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Extra",
+            "id": "63b3fe8f-f206-4833-b478-4aac9143d49b",
+            "actions": [
+                {
+                    "name": "ToggleIngameMenu",
+                    "type": "Button",
+                    "id": "1376e796-33b5-47ce-9b94-d7ea21e3221a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "883c3700-d5d3-460f-8847-8dcea4fdd563",
+                    "path": "<HID::SHANWAN PS3/PC Gamepad>/hat/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "ToggleIngameMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fb22c22f-65ac-4ef4-99f1-7e31000a1a34",
+                    "path": "<HID::DragonRise Inc.   Generic   USB  Joystick  >/hat/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SpeedLinkJoystick",
+                    "action": "ToggleIngameMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f8f9d013-caa4-44f7-bae2-7ed7b1cac21b",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardAndMouse",
+                    "action": "ToggleIngameMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "KeyboardAndMouse",
+            "bindingGroup": "KeyboardAndMouse",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "SpeedLinkJoystick",
+            "bindingGroup": "SpeedLinkJoystick",
+            "devices": [
+                {
+                    "devicePath": "<HID::SHANWAN PS3/PC Gamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

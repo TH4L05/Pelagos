@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b921e16bba427524bab6e1af709eb832, type: 3}
+  m_Name: Crescentfin
+  m_EditorClassIdentifier: 
+  name: Crescentfin
+  description: 'Their body is mostly made up of solid bone and therefore very durable.
+    Their fins often cut off kelp leaves, leaving them for other fish to feed on.
+
+'
+  unlocked: 0
+  scannableType: 0
+  unlockedSprite: {fileID: 21300000, guid: 8ac6a4a6dadbb0a4bbb432194467f348, type: 3}
+  prefab: {fileID: 643343201794109830, guid: 6a29963367204f445b5a4c4bc4f971b4, type: 3}
+  species: 12
+  habitat1: 2
+  habitat2: 0
+  size: 120
+  weight: 1200000

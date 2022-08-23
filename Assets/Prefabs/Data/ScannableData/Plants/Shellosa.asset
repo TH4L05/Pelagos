@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89c6ea3112e48a7409699be3f7829eac, type: 3}
+  m_Name: Shellosa
+  m_EditorClassIdentifier: 
+  name: Shellosa
+  description: "This plant unfolds its full beauty as soon as it flowers and \rreveals
+    its luminous bud. It is one of the most beautiful plants in \rthe sea.\r\n"
+  unlocked: 0
+  scannableType: 1
+  unlockedSprite: {fileID: 21300000, guid: 000244e4b6d70d34cbe7e4e12f207b2e, type: 3}
+  prefab: {fileID: 1900089003238975598, guid: fc8b3da2f23af454783227fabe719f86, type: 3}
+  species: -1
+  habitat1: 1
+  habitat2: 4
+  size: 60

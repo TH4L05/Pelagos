@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b921e16bba427524bab6e1af709eb832, type: 3}
+  m_Name: OceanMoth
+  m_EditorClassIdentifier: 
+  name: Ocean Moth
+  description: 'Ocean Moths mostly feed off the different fungi found in the deep.
+    Their bioluminescent chemicals are also responsible for the slugs glowing. '
+  unlocked: 0
+  scannableType: 0
+  unlockedSprite: {fileID: 21300000, guid: 857648e0fc0b24e46be84272633b7de4, type: 3}
+  prefab: {fileID: 2083017043848986031, guid: 2650ced68dc46b2468ba23f3911afea2, type: 3}
+  species: 12
+  habitat1: 3
+  habitat2: 0
+  size: 10
+  weight: 100
